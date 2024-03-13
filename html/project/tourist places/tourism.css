@@ -1,0 +1,26 @@
+.bg-container{
+    background-image:url("https://img.freepik.com/free-photo/chair-table-dinning-beach-sea-with-blue-sky_74190-6094.jpg");
+    background-size:cover;
+    height:100vh;
+    text-align: center;
+}
+.card{
+   background-color: white; 
+   text-align: center;
+   height: 30vh;
+   border-top-left-radius:25px;
+   border-top-right-radius: 25px;
+   position:absolute;
+   bottom:0;
+   left:0;
+   right:0;
+}
+button{
+        height: 36px;
+        width:136px;
+        background-color:#25b1cc;
+        color:white;
+        border-radius:25px;
+        border:none;
+        cursor:pointer;
+}

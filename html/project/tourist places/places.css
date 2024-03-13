@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0px;
+}
+.places-bg-container{
+    background-image: url("https://img.freepik.com/free-vector/landmarks-skyline-paper-style-design_23-2148443829.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: roboto;
+    color: white;
+}
+.place-container{
+    background-color: rgb(49, 43, 43);
+    align-items: center;
+    width: fit-content;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+}
+.btn{
+    padding: 10px;
+    color: white;
+    background-color: rgb(12, 137, 137);
+    border-radius: 10px;
+    border-width: 0px;
+    width: 60px;
+    font-size: larger;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.head{
+    display: inline;
+}
+.para{
+    margin-top:1px ;
+}
+.place-content{
+    width:400px;
+    font-size: larger;
+}
+.place-image{
+    width: 50px;
+    border-top-left-radius: 60px;
+}
